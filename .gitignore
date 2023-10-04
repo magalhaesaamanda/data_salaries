@@ -1,0 +1,52 @@
+# Arquivos e diretórios gerados automaticamente
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Arquivos de ambiente virtual
+venv/
+env/
+*.env
+
+# Logs e arquivos temporários
+*.log
+*.swp
+*.swo
+*.tmp
+*.bak
+
+# Arquivos de configuração sensíveis
+config.ini
+secrets.yaml
+
+# Arquivos de cache
+.cache/
+
+# Arquivos gerados por IDEs ou editores
+.vscode/
+.idea/
+*.sublime-*
+*.pycharm-*
+
+# Arquivos e diretórios de build
+build/
+dist/
+*.egg-info/
+*.egg
+*.dll
+*.so
+*.exe
+*.out
+
+# Arquivos de dados e uploads
+utils/georef/
+*.xlsx
+
+
+# Outros arquivos específicos do projeto
+*.project
+*.settings
+
+# Arquivo de dependências do Jupyter Notebook
+.ipynb_checkpoints/
