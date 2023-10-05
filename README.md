@@ -1,15 +1,14 @@
-# ADA - Exploratory Data Analysis
+# Data_Salaries
 ![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=main)
 
 - Instituição: Let's Code
 - Curso: Santander Coders
-- Disciplina: Técnicas de Programação I
-- Professores: Matheus Barão Fiorin
-- Alunos: Amanda Borges Matos Santana Magalhaes, Daniel Custodio Dias, Douglas Vieira Rocha, Karen Almeida Neves, Rhayza Pinto
+- Disciplina: Estatística
+- Professores: Gabriel Novais
+- Alunos: Amanda Magalhaes, Daniel Custodio, Mariah Moreira e Marcia Freitas
 
-Este projeto é uma exploração dos datasets: [Prouni 2005 - 2019](https://www.kaggle.com/datasets/saraivaufc/prouni) fornecidos pelo [Kaggle](https://www.kaggle.com/). O foco é realizar uma exploração e análise nesses dados.
+Este projeto é uma exploração dos datasets: [Data Science Salaries 2023 ](https://www.kaggle.com/datasets/arnabchaki/data-science-salaries-2023/) fornecidos pelo [Kaggle](https://www.kaggle.com/). O foco é realizar uma exploração e análise nesses dados.
 
-A especificação completa do projeto pode ser encontrada em: [Projeto Final](https://github.com/DanielCustodioDias/Projeto_PROUNI/blob/main/utils/Projeto_final.md).
 
 ## Conteúdo
 
@@ -22,13 +21,10 @@ A especificação completa do projeto pode ser encontrada em: [Projeto Final](ht
 - Organização do projeto
 - Contribuições
 
-## Descrição dos Dados
-
-
 
 ## Objetivo
 
-O objetivo desse projeto é de realizar uma análise exploratória dos dados do Prouni, verificar tendencias, como são distribuidas as bolsas e criar insights quanto ao projeto.
+O objetivo desse projeto é de realizar uma análise exploratória dos dados de salarios de pessoas atuantes na area de dados e criar insights quanto ao projeto.
 
 ## Ferramentas Usadas 
 Este projeto foi concluído usando Python e suas bibliotecas associadas, como NumPy, Pandas, Geopandas, Matplotlib, Seaborn e Ipykernel.
@@ -36,18 +32,17 @@ Este projeto foi concluído usando Python e suas bibliotecas associadas, como Nu
 ## Integrantes
 Projeto desenvolvido pelos Devs:
 
-- [Amanda Borges Matos Santana Magalhaes](https://github.com/magalhaesaamanda)
-- [Daniel Custodio Dias](https://github.com/danielcustodiodias)
-- [Douglas Vieira Rocha](https://github.com/dogaVrocha)
-- [Karen Almeida Neves](https://github.com/KarenAlmeida23)
-- [Rhayza Pinto](https://github.com/RhayzaPinto)
+- [Amanda Magalhaes](https://github.com/magalhaesaamanda)
+- [Daniel Custodio](https://github.com/danielcustodiodias)
+- [Mariah Moreira]([https://github.com/KarenAlmeida23](https://github.com/mariah-moreira))
+- [Marcia Furtado]([https://github.com/RhayzaPinto](https://github.com/marciafurtadodf))
 
 ## Recomendações
 - Cada desenvolvedor terá um notebook destinado à sua própria análise exploratória.
 - Em relação aos commits será utilizado um padrão:
-    - Commits de novas features. Ex: git commit -m "New: Readme"
-    - Commits de updates. Ex: git commit -m "Update: Readme"
-    - Commits de remoção. Ex: git commit -m "Delete: Readme"
+    - Commits de novas features. Ex: git commit -m "Adicionando: Readme"
+    - Commits de updates. Ex: git commit -m "Alterando: Readme"
+    - Commits de remoção. Ex: git commit -m "Deletando: Readme"
 
 ## Instalação
 Foi utilizado o [Python](https://www.python.org/) v3.11.
@@ -105,24 +100,26 @@ deactivate
 
 ## Organização do projeto
 ```sh
-PROUNI_2005_2019
+Projeto Estatistica
+ ┣ data
+ ┃ ┗ ds_salaries.csv
  ┣ main
  ┃ ┣ edas
  ┃ ┃ ┣ amanda.ipynb
  ┃ ┃ ┣ daniel.ipynb
- ┃ ┃ ┣ douglas.ipynb
- ┃ ┃ ┣ karen.ipynb
- ┃ ┃ ┗ rhayza.ipynb
- ┃ ┣ tratamento
- ┃ ┃ ┗ tratamento.ipynb
- ┃ ┗ main.ipynb
+ ┃ ┃ ┗ mariah.ipynb
+ ┃ ┗ EDA.ipynb
  ┣ utils
- ┃ ┣ BR_Setores_2021_gpkg
- ┃ ┃ ┗ BR_Setores_2021.gpkg
+ ┃ ┣ georef
+ ┃ ┃ ┣ world_countries.dbf
+ ┃ ┃ ┣ world_countries.shp
+ ┃ ┃ ┗ world_countries.shx
  ┃ ┣ environment.yml
  ┃ ┣ Projeto_final.md
  ┃ ┗ requeriments.txt
+ ┣ .gitattributes
  ┣ .gitignore
+ ┣ LICENSE
  ┗ README.md
 ```
 
